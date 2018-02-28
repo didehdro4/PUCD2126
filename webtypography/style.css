@@ -2,3 +2,27 @@ css file
 .css-selector {
   font-family: 'Raleway', sans-serif;
 }
+
+body {
+        font-family: 'Raleway', serif;
+        font-size: 20px;
+      }
+
+
+.relative{
+    position:relative;
+}
+
+.absolute-text{
+    position:absolute;
+    background:rgba(251,251,251,0.5);
+    padding:10px 20px;
+    width:100%;
+    text-align:center;
+
+}
+.absolute-text a{
+    font-size:16px;
+    color:#b92b27;
+
+}
