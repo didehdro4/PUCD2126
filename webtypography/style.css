@@ -1,28 +1,91 @@
 css file
 .css-selector {
   font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Biryani', sans-serif;
+  font-family: 'Sumana', serif;
 }
 
-body {
-        font-family: 'Raleway', serif;
-        font-size: 20px;
-      }
 
-
-.relative{
-    position:relative;
+.page{
+    position: absolute;
+    top: 0px;
+    left: auto;
+    right: auto;
 }
 
-.absolute-text{
+
+.company{
     position:absolute;
-    background:rgba(251,251,251,0.5);
-    padding:10px 20px;
     width:100%;
     text-align:center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 9px;
+    top:20px;
+	left:-207px;
+	color:white;
 
 }
-.absolute-text a{
-    font-size:16px;
-    color:#b92b27;
+
+.title{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 168px;
+    top:-160px;
+	left:auto;
+	right:auto;
+	color:yellow;
 
 }
+
+.date{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 11px;
+    top:160px;
+	left:230px;
+	color:white;
+
+}
+
+.cont1{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    font-family: 'Sumana', serif;
+    font-size: 17px;
+    top:253px;
+	left:226px;
+	color:white;
+
+}
+
+.cont2{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    font-family: 'Sumana', serif;
+    font-size: 17px;
+    top:270px;
+	left:199px;
+	color:white;
+
+}
+
+.cont3{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    font-family: 'Sumana:400;', serif;
+    font-size: 17px;
+    top:304px;
+	left:185px;
+	color:white;
+
+}    
