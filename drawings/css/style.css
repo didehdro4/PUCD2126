@@ -1,0 +1,109 @@
+body{
+   background: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.parent{
+  background: #00789D;
+}
+
+.parent:before{
+  content: 'ㅇㅇㅇㅇㅇㅇ';
+  background: #E7E746;
+}
+
+.parent:after{
+  content: 'ㅇㅇㅇㅇㅇㅇ';
+  background: #AAAAE5;
+  color: #212121;
+}
+
+
+div[data-hungry]:before {
+  content: attr(data-hungry);
+}
+
+.child:first-child{
+  color: yellow;
+}
+
+.child:last-child{
+  color: #AAAAE5;
+}
+
+.child:before {
+  content: 'yummy';
+}
+
+.child:before:hover {
+  color: black;
+
+}
+
+.child:hover{
+  color: #f4f4f4;
+}
+
+/* shapes */
+.square {
+  width: 100px;
+  height: 100px;
+  background: brown;
+}
+
+.rectangle {
+  width: 100px;
+  height: 200px;
+  background: lightgreen;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  border-radius: 50%;
+}
+
+/* do till next class */
+.pill {
+  width: 100px;
+  height: 300px;
+  background: hotpink;
+  border-radius: 45%;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #8484A8;
+  margin-bottom: 5px;
+}
+
+.trapezoid {
+  width: 130px;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid grey;
+  margin-bottom: 5px;
+}
+
+.parallelogram {
+  width: 150px;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #8484A8;
+  margin-bottom: 5px;
+}
+
+/* box shadows */
+/* Xoffset Yoffset blur sizeofblur*/
+.boxy-demo{
+  box-shadow: 170px 0 10px #E7E746,
+  330px 0 0 -20px #00789D,
+  330px 5px 5px -20px #333;
+}
