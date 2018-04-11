@@ -70,6 +70,17 @@ p4{
   margin-bottom: 20px;
   text-align: center;
 }
+p5{
+    font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 h1{
 font-size: 30px;
@@ -221,7 +232,7 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     background: rgba(255, 255, 255, 0.80);
-
+    
 }
 
 
@@ -447,7 +458,7 @@ ul, li {
     height: 375px;
     margin-left: auto;
     margin-right: auto;
-
+    
   background-image: url("images/analog1.JPG");
   background-repeat: no-repeat;
   background-size: cover;
@@ -482,7 +493,7 @@ width: 100%;
 
 
 .fade {
-
+    
     width: 400px;
     height: 300px;
     position: absolute;
@@ -500,7 +511,7 @@ width: 100%;
     background-size: cover;
     position: relative;
     margin-top: 10px;
-
+    
 }
 
 
@@ -645,4 +656,15 @@ img {
 	width:100%;
 	position:fixed;
 	left:0;
+}
+
+.backk{    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    top: 20px;
+    z-index: 100;
 }
