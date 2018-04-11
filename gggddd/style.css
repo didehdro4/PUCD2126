@@ -2,6 +2,10 @@ css file
 .css-selector {
     font-family: 'Poiret One', cursive;
     font-family: 'VT323', monospace;
+    font-family: 'Gaegu', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 html {
@@ -15,6 +19,16 @@ head {
 body::-webkit-scrollbar { display: none; }
 
 p{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+p0{
+  font-family: 'Playfair Display', serif;
   font-weight: 300;
   font-size: 14px;
   color: black;
@@ -24,10 +38,10 @@ p{
 }
 
 p2{
-    
+    font-family: 'Nunito', sans-serif;
   text-align: center;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 17px;
   color: black;
   letter-spacing: 0;
   line-height: 1.4;
@@ -35,7 +49,7 @@ p2{
   text-align: center;
 }
 p3{
-    
+    font-family: 'Nunito', sans-serif;
   text-align: center;
   font-weight: 300;
   font-size: 14px;
@@ -46,7 +60,7 @@ p3{
   text-align: center;
 }
 p4{
-    
+    font-family: 'Nunito', sans-serif;
   text-align: center;
   font-weight: 300;
   font-size: 14px;
@@ -116,10 +130,10 @@ a:active {
     position: absolute;
     display: block;
     text-align:center;
-    font-family: 'Poiret One', cursive;
-    font-size: 700%;
+    font-family: 'Playfair Display', serif;
+    font-size: 800%;
 	color:white;
-    top: 30px;
+    top: 10px;
 }
 
 
@@ -128,12 +142,11 @@ a:active {
 
 
 #navs {
-    width: 200px;
+    width: 235px;
     height: 30px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Poiret One;
-    font-size: 80%;
+    font-size: 160%;
     margin-top: 670px;
 }
 
@@ -186,10 +199,10 @@ a:active {
     width: 150px;
     height: 100px;
     position: relative;
-    font-family: Poiret One;
+    font-family: 'Nunito', sans-serif;
     top: -30px;
     text-align: center;
-    
+    color: black;
 }
 
 
@@ -504,7 +517,7 @@ width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 40px;
+    top: 20px;
     z-index: 100;
 }
 
