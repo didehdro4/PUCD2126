@@ -221,7 +221,7 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     background: rgba(255, 255, 255, 0.80);
-    
+
 }
 
 
@@ -419,7 +419,7 @@ ul, li {
     width: 200px;
   margin-top: 8px;
   vertical-align: middle;
-  padding: 6px;
+  padding: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -447,7 +447,7 @@ ul, li {
     height: 375px;
     margin-left: auto;
     margin-right: auto;
-    
+
   background-image: url("images/analog1.JPG");
   background-repeat: no-repeat;
   background-size: cover;
@@ -482,7 +482,7 @@ width: 100%;
 
 
 .fade {
-    
+
     width: 400px;
     height: 300px;
     position: absolute;
@@ -500,7 +500,7 @@ width: 100%;
     background-size: cover;
     position: relative;
     margin-top: 10px;
-    
+
 }
 
 
