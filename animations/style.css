@@ -1,91 +1,100 @@
+css file
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+.con {
+  position: relative;
+  margin: 20px auto 10px;
+  width: 415px;
+  height: 300px;
+  transform: scale(0.7);
+}
+.con:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 57%;
+  height: 60%;
+  border-radius: 70px/60px;
+  background: #2B7C44;
+  transform: rotate(3deg);
+}
+.con .face {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 76%;
+  height: 100%;
+  border-radius: 155px 175px 155px 155px/121px 121px 100px 20px;
+  background: #2B7C44;
+}
+.con .eye {
+  position: absolute;
+  top: 17%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 190px;
+  height: 120px;
+  transform: scale(1, 1.2);
+}
+.con .eye:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  border-radius: 100% 0 100% 0;
+  background: #EBD13C;
+  transform: rotate(35deg);
+}
+.con .eye:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 50%;
+  margin-left: -12.5px;
+  width: 25px;
+  height: 78px;
+  background: #000;
+}
+.con .mouth {
+  position: absolute;
+  top: 67%;
+  left: -31%;
+  width: 187px;
+  height: 14px;
+  border-radius: 2px 7px 7px 2px;
+  background: #000;
+}
+.con .mouth:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 14px;
+  right: 24px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50% 60% 0 0/100% 100% 0 0;
+  background: #fff;
+}
 
-.shake {
+
+
+
+
+#hello-text {
     font-family: 'Open Sans';
     font-size: 4em;
     color: #00789d;
     text-align: center;
-    animation: shake 2s infinite;
-    animation-timing-function: ease-in-out;
-}
-
-    /*
-     * animation: [animation-name]
-     * [animation-duration] [animation-timing-function]
-     * [animation-delay] [animation-iteration-count]
-     * [animation-direction]
-     * [animation-fill-mode] [animation-play-state]
-    */
-
-.shake-ease {
-    font-family: 'Open Sans';
-    font-size: 4em;
-    color: #00789d;
-    text-align: center;
-    animation: shake 2s cubic-bezier(.27,.91,.69,-0.23) infinite;
-}
-
-.box {
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #0000FF;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
-
-.box:hover {
-    background-color: #FFCCCC;
-    width: 700px;
-    height: 700px;
-    transform: rotate(180deg);
-}
-
-
-
-@keyframes shake {
-    from, to {
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-    }
-
-    10%, 30%, 50%, 70%, 90% {
-         -webkit-transform: translate3d(-10px,0,0);
-        transform: translate3d(-10px,0,0);
-    }
-
-     20%, 40%, 60%, 80% {
-         -webkit-transform: translate3d(10px,0,0);
-        transform: translate3d(10px,0,0);
-    }
-}
-
-
-
-.zoom-box {
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #0000FF;
-    animation: zoom 5s infinite;
-}
-
-
-@keyframes zoom {
-    0% {
-        transform: scale(0.1);
-        opacity: 0;
-    }
-
-     60% {
-        transform: scale(1.2);
-        opacity: 0;
-    }
-
-     100% {
-        transform: scale(1);
-        opacity: 0;
-    }
 }
